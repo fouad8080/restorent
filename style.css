@@ -1,0 +1,312 @@
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+header{
+	height:100dvh;
+	width:100%;
+	background:url('./imgs/home_bg.jpeg') center center/cover no-repeat;
+	position: relative;
+	top:0;
+	left:0;
+}
+.navbar{
+	display:flex;
+	display-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+
+ul {
+	list-style:none;
+}
+.navbar ul {
+	display: flex;
+	margin-right: 10px;
+}
+.tag a {
+	padding:20px;
+	font-size:20px;
+	color:white;
+}
+.tag a:hover{
+	border-bottom:2px solid #e4b95b;
+}
+a {
+	text-decoration:none;
+	color: #000;
+}
+.navbar img{
+	width: 130px;
+	height: 130px;
+	margin-left:10px ;
+}
+
+.content {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	height:75%;
+}
+
+.content h1{
+	font-size:50px;
+	color:white;
+}
+
+.content p{
+	margin:10px 0px 40px;
+	color:white;
+}
+
+.content span{
+	color:orange;
+}
+
+.btn{
+	display:inline-block;
+	
+	border-radius:20px;
+	padding:15px 30px;
+}
+
+.btn-primary{
+	border:2px solid white;
+	color:white;
+}
+.btn-primary:hover , .btn-secendery:hover{
+	background-color:orange;
+}
+
+header::before{
+	content:"";
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	background:rgb(0,0,0,0.5);
+}
+header * {
+	z-index: 10;
+}
+
+#text{
+	display:flex;
+	flex-direction:column;
+}
+
+/*header end */
+
+
+
+
+
+/*about start */
+
+
+
+
+#about{
+	
+	
+	justify-content:center;
+	align-items:center;
+	margin-bottom:2rem;
+}
+
+.about .continer{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	max-width:1100px;
+}
+
+.about-content{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	
+}
+#about h1{
+	font-size:40px;
+	color:#383848;
+}
+
+.title {
+	justify-content:center;
+	text-align:center;
+	margin-bottom:2rem;
+
+}
+.title p{
+	font-size:14px;
+	color:#9a9a9a;
+}
+.about-content img{
+	width:450px;
+}
+.about-content p{
+	color:#9a9a9a;
+	margin-right:7rem;
+}
+#text{
+	
+	align-items:center;
+}
+
+.btn-secendery{
+	color:#fff;
+	background-color:#383848;
+}
+
+.about .continer{
+	display:flex;
+	flex-direction:column;
+}
+/*about end */
+
+
+
+
+/*offers start */
+.primary-text{
+	color:orange;
+	
+	margin:0px 10px;
+}
+#offers .primary-text, #menu .primary-text{
+	font-size:23px;
+}
+
+#offers .offers-items del{
+	font-size:14px;
+}
+
+#offers{
+	height:100dvh;
+	display:flex;
+	justify-content:center;
+	background:url('./imgs/offer-background.jpg') center center/cover fixed
+}
+#offers h1{
+	font-size:40px;
+	color:orange
+}
+#offers .title p{
+	color:white;
+}
+#offers .offers-items {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	color:white;
+}
+
+#offers .offers-items img{
+	width:120px;
+}
+
+#offers .offers-items h3{
+	font-size:25px;
+	margin:15px;
+}
+
+#offers .offers-items p{
+	margin-bottom:15px;
+}
+
+/*offers end*/
+
+
+
+/*menu start*/
+#menu{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#menu .continer{
+	display:flex;
+	flex-direction:column;
+}
+.menu-items{
+	display:flex;
+	flex-direction:row;	
+	justify-content:space-around;
+}
+.menu-items img{
+	width:90px;
+	border-radius:50%;
+
+	float: left;
+	margin-right:10px;
+}
+.menu-items-right ,.menu-items-left{
+	display:inline-block;
+	width: 45%;
+	
+}
+
+.menu-item{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	border-radius:20px;
+	margin-bottom:15px;
+	padding:0 10px;
+
+}
+.menu-item h3{
+	border-bottom:0.5px dashed #c2bdbd;
+	position :relative;
+}
+.menu-item h3 span{
+	position:absolute;
+	top:0;
+	right:0;
+}
+#menu .btn{
+	
+	margin:20px auto;
+	background:orange;
+	color:white;
+}
+
+#menu .btn:hover{
+	background:#383848;
+}
+/*menu end*/
+
+/*daytime start*/
+
+#daytime{
+	background:url('./imgs/daytime_bg.jpeg') center center/cover fixed no-repeat;
+	margin-top:20px;
+	padding-top:30px;
+	height: 50dvh;
+	justify-content:center;
+
+}
+.daytime-items{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+
+}
+
+.daytime-items h3{
+	font-size:34px;
+}
+
+/*daytime end*/
+
