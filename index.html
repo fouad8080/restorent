@@ -5,6 +5,9 @@
 		<meta nema="viewport="  content="width=device-width ,intial-scale=1.0">
 		<title>Food Lover RESTAURANT</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="shortcut icon" typr="image/x-icon" href="/favicon.ico">
 	</head>
 	<body>
 		<header>
@@ -12,16 +15,16 @@
 				<img src="imgs/logo.png" alt="restorant logo">
 				<nav >
 					<ul>
-						<li class="tag"><a href="#Home">Home</a></li>
-						<li class="tag"><a href="#About">About</a></li>
-						<li class="tag"><a href="#Menu">Menu</a></li>
-						<li class="tag"><a href="#Gallery">Gallery</a></li>
-						<li class="tag"><a href="#Contect">Contect</a></li>
+						<li class="tag"><a href="#home">Home</a></li>
+						<li class="tag"><a href="#about">About</a></li>
+						<li class="tag"><a href="#menu">Menu</a></li>
+						<li class="tag"><a href="#gallery">Gallery</a></li>
+						<li class="tag"><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="content">
-				<h1>Welcome to <span id="name" class="primary-text">Food Lover</span> RESTAURANT</h1>
+				<h1>Welcome to <span class="primary-text">Food Lover</span> RESTAURANT</h1>
 				<p>Here you can find the most delicacies food in the World</p>
 				<a href="#" class="btn btn-primary">book a table</a>
 			</div>
@@ -203,6 +206,61 @@
 					</div>
 				</div>
 			</section>
-		</main>				
+			<section id="gallery">
+				<div class="continer">
+					<h2 class="secendry-title">Our Food Gallery</h2>
+					<div class="img-gallery">
+						<div class='minicontiner'>
+							<img src="./imgs/gallery1.jpeg" alt="gallery 1">
+							<img src="./imgs/gallery2.jpeg" alt="gallery 2">
+							<img src="./imgs/gallery3.jpeg" alt="gallery 3">
+						</div>
+						<div class='minicontiner'>
+							<img src="./imgs/gallery4.jpeg" alt="gallery 4">
+							<img src="./imgs/gallery5.jpeg" alt="gallery 5">
+							<img src="./imgs/gallery6.jpeg" alt="gallery 6">
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="continer">
+					<div class="contact-content">
+						<div class="contact-info">
+							<div>
+								<h3>Address</h3>
+								<p><i class="fa-solid fa-location-dot"></i> Hosary Mosque,6 october,Egypet</p>
+								<p><i class="fa-solid fa-phone"></i> Phone: 123456789</p>
+								<p><i class="fa-regular fa-envelope"></i> supprt@gmail.com</p>
+							</div>
+							<div>
+								<h3>Working Hours</h3>
+								<p>8:00 am to 11:00 pm on weekdays</p>
+								<p>11:00 am to 1:00 am on weekend</p>
+							</div>
+							<div>
+								<h3>Follow Us</h3>
+								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>								
+							</div>
+						</div>
+						<form>
+							<input type="text" name="Name" id="Name" placeholder="Full Name" required>
+							<input type="email" name="email" id="email" placeholder="Email address" required>
+							<input type="text" name="Subject" id="Subject" placeholder="Full Name" required>
+							<textarea name="message" id="message" cols="30" rows="5"
+							placeholder="Message"></textarea>
+							<button type="submite" class="btn">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>		
+		<footer>
+			<p>Copyright &copy; 2023 All rights reserved | Made By <b><a href="#" target="_blank">Fouad Bennedjma</a></b></p>
+		</footer>		
 	</body>
 </html>
